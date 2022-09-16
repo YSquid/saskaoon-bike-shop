@@ -84,6 +84,7 @@ nav li {
     justify-content: space-around;
     align-items: center;
     height: 25rem;
+    margin: 0;
 }
 
 .bike-container {
@@ -98,6 +99,47 @@ nav li {
 .bike-container h2 {
     text-align: center;
 }
+
+/* team section */
+
+.team-container {
+    height: 30rem;
+    background-image: url('./assets/mountains.jpg');
+    background-repeat: none;
+    background-size: cover;
+    margin: 0;
+}
+
+.team-container h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    margin: 0;
+    padding-top: 1rem;
+    color: #fff;
+}
+
+.team-container h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    height: 75%;
+}
+
+.teamate {
+    height: 75%;
+}
+
+.teamate img {
+    height: 75%;
+}
+
+
+/* Footer section */
+
 
 footer {
     display: flex;
