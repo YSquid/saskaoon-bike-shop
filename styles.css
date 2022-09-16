@@ -1,0 +1,106 @@
+/* Universal Styles */
+:root {
+    --main-color: #BAD29F; 
+    --header-footer: #69412bbb;
+    --accent: #f5eb61e3;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    font-size: 16px;
+    background-color: var(--main-color);
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* header section */
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0;
+    background-color: var(--header-footer);
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+/* Main banner */
+
+.banner {
+    height: 30rem;
+    background-image: url('./assets/header_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    width: 80%;
+    text-align: center;
+    height: 20%;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+/* Mission */
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.mission p {
+    margin: 0;
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* Bikes section */
+
+.bikes {
+    background-color: var(--accent);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25rem;
+}
+
+.bike-container {
+    height: 75%;
+}
+
+.bike-container img {
+    max-height: 75%;
+    min-height: 75%;
+}
+
+.bike-container h2 {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem 2rem;
+}
