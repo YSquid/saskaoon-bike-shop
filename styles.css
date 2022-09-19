@@ -81,6 +81,7 @@ nav li {
 .bikes {
     background-color: var(--accent);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     height: 25rem;
